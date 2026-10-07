@@ -14,7 +14,7 @@ from detect_ai_patterns import analyze_text
 HUMANIZED_PARAGRAPHS = {
     0: "SkillLens: Evidence-Based Skill Verification and Career Intelligence Using Resume and GitHub Evidence",
     1: "A Java Desktop Prototype for Validating Student Technical Skills and Career Progression",
-    2: "Author: ______________________________    |    Institution: ______________________________",
+    2: "Authors: Deepak Rakshit, Shaswat Srivastav, Arya Kashyap    |    Institution: ______________________________",
     3: "Abstract",
     4: "Technical hiring and internship screening rely heavily on unverified resume claims. Candidates list technical tools and frameworks without indicating their depth of practical experience. SkillLens pairs resume parsing with public GitHub activity and explicit role definitions to verify practical code exposure. The desktop application parses submitted resumes in PDF or DOCX format, extracts technical skills into canonical forms, and inspects public repositories alongside commit records from default branches. Claims map onto five categories: verified, partially verified, weak evidence, unverified, or missing. A deterministic formula calculates numerical role-fit scores, while large language models handle explanatory tasks, including career advice and profile optimization. The system uses Google Gemini as its primary model and routes to Groq's GPT-OSS 120B when Gemini is unavailable. Mentorship runs through a local retrieval-augmented generation pipeline isolated by candidate identifier. Built with Java 25, JavaFX 25, Spring Boot, and Maven, the tool runs locally without external web servers or Python environments. In a test run using an applicant resume and 111 public repositories, the prototype collected 97 commits, formed 43 evidence links, and indexed 57 local text chunks. While public code cannot capture private workplace contributions, it offers an inspectable baseline for assessing entry-level technical readiness.",
     5: "Keywords: skill verification, GitHub mining, resume analysis, semantic matching, explainable AI, retrieval-augmented generation, career roadmap, Java, generative AI, evidence-based recruitment.",
@@ -83,6 +83,7 @@ def humanize_docx(input_path: str, output_path: str):
     for idx, new_text in HUMANIZED_PARAGRAPHS.items():
         if idx < len(doc.paragraphs):
             p = doc.paragraphs[idx]
+            orig_align = p.alignment
             # If paragraph has runs with specific formatting, preserve run 0 formatting
             if p.runs and (p.runs[0].bold or p.runs[0].italic):
                 is_bold = p.runs[0].bold
@@ -93,7 +94,11 @@ def humanize_docx(input_path: str, output_path: str):
                     p.runs[0].italic = is_italic
             else:
                 p.text = new_text
+            if orig_align is not None:
+                p.alignment = orig_align
 
+    doc.core_properties.author = "Deepak Rakshit, Shaswat Srivastav, Arya Kashyap"
+    doc.core_properties.title = "SkillLens: Evidence-Based Skill Verification and Career Intelligence Using Resume and GitHub Evidence"
     doc.save(output_path)
     print(f"Saved humanized document to {output_path}")
 

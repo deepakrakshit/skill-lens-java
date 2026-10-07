@@ -43,7 +43,8 @@ def verify_paper(docx_path: str):
         "Gemini 3.5 Flash", "GPT-OSS 120B", "Groq", "Apache Tika", "PDFBox", "POI",
         "Sentence-BERT", "RAG", "111", "97", "43", "57", "40",
         "deepak", "React", "Python", "Kubernetes", "Fit = Sum(w_i * c_i * e_i)",
-        "[1]", "[2]", "[3]", "[4]", "[5]", "[6]", "[7]", "[8]", "[9]", "[10]", "[11]"
+        "[1]", "[2]", "[3]", "[4]", "[5]", "[6]", "[7]", "[8]", "[9]", "[10]", "[11]",
+        "Deepak Rakshit", "Shaswat Srivastav", "Arya Kashyap"
     ]
     missing_entities = [e for e in required_entities if e not in combined_full_text]
     
