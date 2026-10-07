@@ -5,7 +5,7 @@ spring:
   application:
     name: skill-lens
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:h2:file:./data/skilllens_db;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE}
+    url: ${SPRING_DATASOURCE_URL:jdbc:h2:file:./data/skilllens_db;DB_CLOSE_DELAY=-1;AUTO_SERVER=TRUE}
     driver-class-name: ${SPRING_DATASOURCE_DRIVER:org.h2.Driver}
     username: ${SPRING_DATASOURCE_USERNAME:sa}
     password: ${SPRING_DATASOURCE_PASSWORD:}
@@ -19,6 +19,8 @@ spring:
         format_sql: false
 
 logging:
+  file:
+    name: ${LOG_FILE:./data/skilllens.log}
   level:
     root: INFO
     com.skilllens: INFO
