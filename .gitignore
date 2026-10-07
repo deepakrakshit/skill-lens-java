@@ -1,0 +1,45 @@
+# Antigravity & Agent Private Session Files (Core Invariant Rule 3)
+sessions.json
+conversations.json
+*.log
+*.jsonl
+.env
+.env.*
+!.env.example
+coverage.xml
+
+# Secret Reference Directory (Future reference clone)
+secret/
+secret/**
+.reference/
+.reference/**
+
+# Scratch and Temporary Directories
+scratch/
+scratch/**
+.tmp/
+.temp/
+
+tools/
+tools/**
+# Build & Dependency Outputs
+target/
+dist/
+build/
+.gradle/
+bin/
+out/
+node_modules/
+data/
+*.db
+*.mv.db
+*.trace.db
+
+# OS and IDE Metadata
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+*.swp
+*~

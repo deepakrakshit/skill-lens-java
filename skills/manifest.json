@@ -1,0 +1,457 @@
+{
+  "version": "1.0.0",
+  "project": "skill-lens",
+  "generated_at": "2026-10-07T10:12:00Z",
+  "skills": [
+    {
+      "name": "javafx-project-starter",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-project-starter",
+      "purpose": "Initialize and bootstrap modern modular JavaFX projects with Gradle and Maven.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-application-lifecycle",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-application-lifecycle",
+      "purpose": "Govern JavaFX application lifecycle init/start/stop, thread handoffs, and graceful shutdown.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-architecture-frameworks",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-architecture-frameworks",
+      "purpose": "Structure JavaFX applications with MVVM, MVC, dependency injection, and clean state boundaries.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-ui-layout-navigation",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-ui-layout-navigation",
+      "purpose": "Design responsive JavaFX layouts, pane hierarchies, and view navigation transitions.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-fxml-controls-css",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-fxml-controls-css",
+      "purpose": "Declarative FXML UI definition, controller wiring, and CSS styling.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-concurrency-services",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-concurrency-services",
+      "purpose": "Non-blocking background computation using JavaFX Task, Service, and Virtual Threads.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-properties-bindings",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-properties-bindings",
+      "purpose": "JavaFX property binding patterns, unidirectional/bidirectional bindings, and change listeners.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-reactive-binding-state",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-reactive-binding-state",
+      "purpose": "Reactive UI state management, immutable state containers, and observable state streams.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-forms-validation-preferences",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-forms-validation-preferences",
+      "purpose": "Form validation, user input constraints, and user preferences persistence.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-file-workflows-search",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-file-workflows-search",
+      "purpose": "Native desktop file dialogs, file drop zones, directory scanning, and resume upload flows.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-data-visualization-dashboards",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-data-visualization-dashboards",
+      "purpose": "Interactive charts, score gauges, candidate metrics dashboards, and performance graphs.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-desktop-shell-integration",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-desktop-shell-integration",
+      "purpose": "Desktop window containers, system tray integration, dialogs, and OS notifications.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-ecosystem-controls-productivity",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-ecosystem-controls-productivity",
+      "purpose": "ControlsFX, FormsFX, and rich third-party controls selection for desktop productivity.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-real-world-application-patterns",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-real-world-application-patterns",
+      "purpose": "Composite desktop application blueprints, error boundaries, and production architectural patterns.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-theming-icons-styling",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-theming-icons-styling",
+      "purpose": "Modern dark/light themes (AtlantaFX), vector icons (Ikonli), and design tokens.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "javafx-testing-packaging-distribution",
+      "source": "https://github.com/JohannesRabauer/javafx-skills",
+      "ref": "0a6b8f197f52941d6bcbe799aa148e0942b5a4c4",
+      "path": "skills/javafx-testing-packaging-distribution",
+      "purpose": "TestFX headless UI testing, modular jlink packaging, and jpackage installer creation.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "java-springboot",
+      "source": "https://github.com/github/awesome-copilot",
+      "ref": "41892f2b635130901532c576b90bdc09c8aad49c",
+      "path": "skills/java-springboot",
+      "purpose": "Spring Boot conventions, dependency injection patterns, REST controllers, and config properties.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "create-spring-boot-java-project",
+      "source": "https://github.com/github/awesome-copilot",
+      "ref": "41892f2b635130901532c576b90bdc09c8aad49c",
+      "path": "skills/create-spring-boot-java-project",
+      "purpose": "Spring Initializr API bootstrapping workflows for Java projects.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "dr-jskill",
+      "source": "https://github.com/jdubois/dr-jskill",
+      "ref": "5c0ef67e402f764783c7fa5d90c357b4260fc8d6",
+      "path": "skills/dr-jskill",
+      "purpose": "Executable Java 25 & Spring Boot 4.x project generator and best practices manual.",
+      "hasScripts": true,
+      "validated": true
+    },
+    {
+      "name": "spring-ai",
+      "source": "https://github.com/rynr/spring-skills",
+      "ref": "fe9d704396b311b7481dc9f1fc79b0237a3ad8b0",
+      "path": "skills/spring-ai",
+      "purpose": "Spring AI ChatClient integration, structured outputs, prompt engineering, and RAG advisors.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "spring-data-jpa",
+      "source": "https://github.com/Amplicode/spring-skills",
+      "ref": "bf19b3c41423a81dd5c2870c407110df846b56b7",
+      "path": "skills/spring-data-jpa",
+      "purpose": "Spring Data JPA entity conventions, repository design, auditing, and transaction boundaries.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "jpa-query-reviewer",
+      "source": "https://github.com/Jiangxianze/spring-agent-skills",
+      "ref": "f228731681cc37e6abd83058a4d2a6311eba994f",
+      "path": "skills/jpa-query-reviewer",
+      "purpose": "Audit JPA queries for N+1 problems, join fetch optimization, and pagination safety.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "sota-jvm",
+      "source": "https://github.com/martinholovsky/SOTA-skills",
+      "ref": "abb4f80c2d436973b0436d2e0231093b73ea75a1",
+      "path": "skills/sota-jvm",
+      "purpose": "State-of-the-art modern Java (Java 21/25) idioms, virtual threads, pattern matching, records.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "java-architect",
+      "source": "https://github.com/Jeffallan/claude-skills",
+      "ref": "1be15d8064f88fc25216442406d40add8fd23b53",
+      "path": "skills/java-architect",
+      "purpose": "Enterprise Java architecture specialist: Clean Architecture, modular boundaries, JPA performance.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "software-architecture-analysis",
+      "source": "https://github.com/magnus919/agent-skills",
+      "ref": "96fbe0780a2fc2b7d063b613bfc1a5767e11b5d7",
+      "path": "skills/software-architecture-analysis",
+      "purpose": "Codebase archaeology, dependency mapping, contract extraction, and design recovery.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "migration-engineering",
+      "source": "https://github.com/magnus919/agent-skills",
+      "ref": "96fbe0780a2fc2b7d063b613bfc1a5767e11b5d7",
+      "path": "skills/migration-engineering",
+      "purpose": "Systematic multi-phase migration patterns, dual-run verification, and feature parity tracking.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "software-architecture",
+      "source": "https://github.com/magnus919/agent-skills",
+      "ref": "96fbe0780a2fc2b7d063b613bfc1a5767e11b5d7",
+      "path": "skills/software-architecture",
+      "purpose": "System decomposition, architectural patterns, C4 modeling, and interface design.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "backend-engineering",
+      "source": "https://github.com/magnus919/agent-skills",
+      "ref": "96fbe0780a2fc2b7d063b613bfc1a5767e11b5d7",
+      "path": "skills/backend-engineering",
+      "purpose": "Robust backend service design, caching, connection pooling, and bundled N+1 query spotter.",
+      "hasScripts": true,
+      "validated": true
+    },
+    {
+      "name": "secure-software-engineering",
+      "source": "https://github.com/magnus919/agent-skills",
+      "ref": "96fbe0780a2fc2b7d063b613bfc1a5767e11b5d7",
+      "path": "skills/secure-software-engineering",
+      "purpose": "Threat modeling, secrets management, input sanitization, and desktop security hardening.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "qa-methodology",
+      "source": "https://github.com/magnus919/agent-skills",
+      "ref": "96fbe0780a2fc2b7d063b613bfc1a5767e11b5d7",
+      "path": "skills/qa-methodology",
+      "purpose": "Comprehensive test strategy, testability analysis, risk prioritization, and automated testing.",
+      "hasScripts": true,
+      "validated": true
+    },
+    {
+      "name": "verification-methodology",
+      "source": "https://github.com/magnus919/agent-skills",
+      "ref": "96fbe0780a2fc2b7d063b613bfc1a5767e11b5d7",
+      "path": "skills/verification-methodology",
+      "purpose": "Rigorous acceptance testing, verification gates, proof collection, and regression defense.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "systematic-debugging",
+      "source": "https://github.com/magnus919/agent-skills",
+      "ref": "96fbe0780a2fc2b7d063b613bfc1a5767e11b5d7",
+      "path": "skills/systematic-debugging",
+      "purpose": "Scientific root-cause analysis, hypothesis generation, and deterministic failure isolation.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "technical-documentation",
+      "source": "https://github.com/magnus919/agent-skills",
+      "ref": "96fbe0780a2fc2b7d063b613bfc1a5767e11b5d7",
+      "path": "skills/technical-documentation",
+      "purpose": "Engineering documentation, architecture decision records (ADRs), user guides, runbooks.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "api-inference-from-files",
+      "source": "https://github.com/LambdaTest/agent-skills",
+      "ref": "e2d7423a899f2bef8ccf53b3a6edd15465075684",
+      "path": "skills/api-inference-from-files",
+      "purpose": "Extract API endpoints, request schemas, and response models from Python source files.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "api-sdk-generator",
+      "source": "https://github.com/LambdaTest/agent-skills",
+      "ref": "e2d7423a899f2bef8ccf53b3a6edd15465075684",
+      "path": "skills/api-sdk-generator",
+      "purpose": "Design strongly-typed Java API client adapters with retries, backoff, and auth.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "junit-5-skill",
+      "source": "https://github.com/LambdaTest/agent-skills",
+      "ref": "e2d7423a899f2bef8ccf53b3a6edd15465075684",
+      "path": "skills/junit-5-skill",
+      "purpose": "Modern JUnit 5 parameterized tests, nested test architectures, and assertion suites.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "java-junit-test-generator",
+      "source": "https://github.com/Kullapan/github-copilot-skill",
+      "ref": "d7e9835b29d5171d11dda8b72bd700cafc33695b",
+      "path": "skills/java-junit-test-generator",
+      "purpose": "Structured JUnit & Mockito test generation workflows and coverage templates.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "maven-tools",
+      "source": "https://github.com/arvindand/agent-skills",
+      "ref": "70a0bcbed906a26fae84b5cc80ea09f4e1f8b1a7",
+      "path": "skills/maven-tools",
+      "purpose": "Live Maven Central dependency verification, version resolution, and artifact availability.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": "https://github.com/NinjaSln-labs/agent-skills",
+      "ref": "94956f094e5753aee13ef95459b290c81efd3456",
+      "path": "skills/ui-ux-pro-max",
+      "purpose": "Professional UI/UX design intelligence, design systems, and JavaFX stack guidelines.",
+      "hasScripts": true,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-java-rebuild",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-java-rebuild",
+      "purpose": "Project-owned master orchestrator for SkillLens Java rebuild lifecycle and verification gates.",
+      "hasScripts": true,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-github-intelligence",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-github-intelligence",
+      "purpose": "Governs GitHub REST API interaction, canonical username normalization, rate-limit resilience, public repository discovery, latest 30 commits extraction, evidence graph building, and local caching.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-document-intelligence",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-document-intelligence",
+      "purpose": "Directs robust Java-native document ingestion, extraction, and validation for resumes across PDF, DOCX, TXT, and plain-text formats using Apache Tika, PDFBox, and POI.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-resume-engineering",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-resume-engineering",
+      "purpose": "Guides structured candidate profile modeling, skill alias normalization, evidence-grounded resume rewriting, ATS-friendly layout design across 10 professional templates, and Java-native PDF/DOCX generation.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-rag",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-rag",
+      "purpose": "Establishes local Java-native retrieval-augmented generation (RAG) architecture for mentorship and career intelligence, chunking, embeddings, hybrid search, and source attribution.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-ai-evaluation",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-ai-evaluation",
+      "purpose": "Defines automated evaluation frameworks, test datasets, and verification metrics for LLM outputs, structured extraction, hallucination detection, RAG retrieval quality, and resume rewriting integrity.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-ai-routing",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-ai-routing",
+      "purpose": "Architects multi-provider LLM routing: Primary/Vision Gemini (gemini-3.5-flash) and Fallback Groq (openai/gpt-oss-120b), credential management, and structured output generation.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-evidence-analysis",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-evidence-analysis",
+      "purpose": "Provides multi-signal skill verification model, deterministic confidence scoring, buzzword and exaggeration detection, and evidence graph construction.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-career-mentorship",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-career-mentorship",
+      "purpose": "Guides personalized month-by-month career roadmap generation, competency mapping, RAG-grounded AI mentorship conversations, context assembly, and progress tracking.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-learning-resources",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-learning-resources",
+      "purpose": "Governs learning resource discovery, YouTube Data API integration, curriculum ranking, caching, quota management, and graceful offline fallback.",
+      "hasScripts": false,
+      "validated": true
+    },
+    {
+      "name": "skill-lens-data-privacy",
+      "source": "local-project",
+      "ref": "HEAD",
+      "path": "skills/skill-lens-data-privacy",
+      "purpose": "Enforces zero-hardcoding credential invariants, OS-backed secure credential storage, student PII protection, GitHub privacy boundaries, and prompt-injection defenses.",
+      "hasScripts": false,
+      "validated": true
+    }
+  ]
+}
