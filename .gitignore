@@ -35,11 +35,36 @@ data/
 *.mv.db
 *.trace.db
 
+# Archives & Compressed Bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
 # OS and IDE Metadata
 .DS_Store
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
+desktop.ini
 .idea/
 *.iml
+*.iws
+*.ipr
 .vscode/
+.project
+.classpath
+.settings/
+*.factorypath
 *.swp
 *~
+~$*
+*.tmp
